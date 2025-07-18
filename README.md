@@ -30,6 +30,7 @@ This approach aims to balance transparency, professionalism, and legal/ethical b
 | [002](./Case_002_Supply_Chain_Attack_Examination/README.md)    | [Supply Chain Attack Examination](./Case_002_Supply_Chain_Attack_Examination/README.md)   |  Threat Intelligence             |
 | [004](./Case_004_Network_Forensics_Compromised_Web_Server/README.md)    | [Network Forensics of a Compromised Web Server](./Case_004_Network_Forensics_Compromised_Web_Server/README.md)   |  DFIR  |
 | [005](./Case_005_PDF_Malware_Analysis/README.md)			  | [PDF Malware Analysis](./Case_005_PDF_Malware_Analysis/README.md)		     |  Malware Analysis |
+| [006](./Case_006_Ransomware_Investigation_With_Splunk/README.md)			  | [Ransomware Investigation with Splunk](./Case_006_Ransomware_Investigation_With_Splunk/README.md)		     |  Threat Hunting |
 
 ## Private Cases
 | [003](./Case_003_Decryption_Malware_Reverse_Engineering/README.md)    | [Decryption Malware Reverse Engineering (__PRIVATELY AVAILABLE__)](./Case_003_Decryption_Malware_Reverse_Engineering/README.md)   |  Malware Analysis / Reverse Engineering             |
