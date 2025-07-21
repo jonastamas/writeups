@@ -20,7 +20,7 @@
 ## Q1. To begin your investigation, can you identify the filename of the note that the ransomware left behind?
 
 ### Methodology
-1. First I looked up some Sysmon documentation on Google to find common Event IDs, especially the one related to file creation.
+1. First I looked up some Sysmon documentation on Google to find Event IDs, especially the one related to file creation.
 2. Then, using SPL I queried all the logged events that had that specific EventID field, along with txt filetype. It seems that the ransomware placed the same text file at multiple common locations, possibly for users to find it quickly. The below image shows the full query.
    ![](./assets/Q1_1.png)
    *Figure 1: Querying the text note the ransomware left behind, using SPL in Splunk*
@@ -79,7 +79,7 @@ A user has downloaded the ransomware disguised as a social media "helper" progra
 
 ## References & Resources
 - [CyberDefenders - GetPDF Lab](https://cyberdefenders.org/blueteam-ctf-challenges/getpdf/)
-- [Sysmon common Event IDs](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+- [Sysmon Event IDs](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - [Picus security ransomware article](https://www.picussecurity.com/resource/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware)
 - [IBM: What is RaaS?](https://www.ibm.com/think/topics/ransomware-as-a-service)
 - [Google Dorking Cheatsheet](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
