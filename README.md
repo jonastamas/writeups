@@ -32,6 +32,6 @@ This approach aims to balance transparency, professionalism, and legal/ethical b
 | [005](./Case_005_PDF_Malware_Analysis/README.md)			  | [PDF Malware Analysis](./Case_005_PDF_Malware_Analysis/README.md)		     |  Malware Analysis |
 | [006](./Case_006_Ransomware_Investigation_With_Splunk/README.md)			  | [Ransomware Investigation with Splunk](./Case_006_Ransomware_Investigation_With_Splunk/README.md)		     |  Threat Hunting |
 | [007](./Case_007_VoIP_Forensics/README.md)				  | [VoIP Forensics](./Case_007_VoIP_Forensics/README.md)				| DFIR |
-
+| [008](./Case_008_Improper_IoT_configuration/README.md)		  | [Improper IoT Configuration](./Case_008_Improper_IoT_configuration/README.md)	| Ethical hacking |
 ## Private Cases
 | [003](./Case_003_Decryption_Malware_Reverse_Engineering/README.md)    | [Decryption Malware Reverse Engineering (__PRIVATELY AVAILABLE__)](./Case_003_Decryption_Malware_Reverse_Engineering/README.md)   |  Malware Analysis / Reverse Engineering             |
