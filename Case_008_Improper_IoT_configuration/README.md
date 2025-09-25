@@ -20,28 +20,28 @@
 
 ### Methodology
 1.  Did a simple nmap scan for port 53 on the machine IP.
-   ![](Case_008_Improper_IoT_configuration/assets/Q1_1.png)
+   ![](./assets/Q1_1.png)
    *Figure 1: The DNS service running on port 53 as seen from the output of the nmap scan*
 
 ## Q2. What unusual HTTP header is included in the response when visiting the service on port 80?
 
 ### Methodology
 1.  Used curl with option "-i" to include the response headers in the output.
-   ![](Case_008_Improper_IoT_configuration/assets/Q2_1.png)
+   ![](./assets/Q2_1.png)
    *Figure 2: The strange HTTP header included in the response to the curl command*
 
 ## Q3. What relative path on the webserver presents the Pi-hole dashboard?
 
 ### Methodology
 1.  Did a Google search for the found header. Turns out this is an ad-blocker service. Searches returned the GitHub page of the software ([Pi-hole GitHub](https://github.com/pi-hole/pi-hole)), which had the answer about the web interface path.
-   ![](Case_008_Improper_IoT_configuration/assets/Q3_1.png)
+   ![](./assets/Q3_1.png)
    *Figure 3: The web interface dashboard path as seen on the GitHub page of Pi-hole*
 
 ## Q4. What was the default username on a Raspberry Pi device?
 
 ### Methodology
 1.  I knew that Raspberry Pi devices have Raspberry Pi OS by default, so I googled for the credentials. Google responded with its AI by default, and that turned out to be the answer for both Q4 and Q5.
-   ![](Case_008_Improper_IoT_configuration/assets/Q4_1.png)
+   ![](./assets/Q4_1.png)
    *Figure 4: The default credentials of older Raspberry Pi OS versions, meant for Raspberry PI devices.*
    
 ## Q5. What is the default password for the pi user?
@@ -58,13 +58,13 @@
 ## Q7. Can the pi user run any command as root on Mirai?
 ### Methodology
 1.  I looked at whether the user is added to the sudo group.
-   ![](Case_008_Improper_IoT_configuration/assets/Q7_1.png)
+   ![](./assets/Q7_1.png)
    *Figure 5: Check whether the pi user is part of the sudo group.*
 
 ## Q8. The flag-less `root.txt` file mentions that it's on the USB stick. What is the mountpoint for a device that is labeled as a USB stick on this host?
 ### Methodology
 1.  Used the mount command to find any mountpoints that had the string "usb" in their names.
-   ![](Case_008_Improper_IoT_configuration/assets/Q8_1.png)
+   ![](./assets/Q8_1.png)
    *Figure 6: Find the mountpoint which has "usb" string in its label.*
 
 ## Q9. What is the full path to the device that represents the raw USB media on Mirai?
